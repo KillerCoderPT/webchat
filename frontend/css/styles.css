@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+/* https://coolors.co/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+
+body {
+    background-color: #370617;
+}
+
+.sbr { 
+    border: 1px solid red;
+}
+.sbg { 
+    border: 1px solid green;
+}
+.sbp { 
+    border: 1px solid purple;
+}
+
+/* ------ Navbar ------ */
+.navbar {
+    height: 70px;
+}
+
+.bg-light {
+    background-color: #f48c06 !important;
+}
+
+.navbar .navbar-nav > li > a  {
+    color: #03071e !important;
+}
+
+.navbar .navbar-nav > li > a:hover  {
+    color: #2a327a !important;
+}
+
+.navbar-brand > img {
+    /* width: 30px; */
+    height: 45px;
+}
+
+.navbar-toggler {
+    background-color: #6a040f;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    color:rgb(238, 238, 238);
+}
+
+/* ------ Container ------ */
+main {
+    height: calc(100vh - 70px);
+}
+
+/* ---- Sidebar-Left ---- */
+.sidebar-left {
+    background-color: rgb(106, 4, 15);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.profile-info p {
+    color: rgb(238, 238, 238);
+}
+
+/* ---- Main-Content ---- */
+.main-content {
+    background-color: rgba(238, 238, 238);
+}

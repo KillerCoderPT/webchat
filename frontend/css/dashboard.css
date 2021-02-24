@@ -1,0 +1,13 @@
+body {
+    background-color: #280729;
+}
+
+.sbr { 
+    border: 1px solid red;
+}
+.sbg { 
+    border: 1px solid green;
+}
+.sbp { 
+    border: 1px solid purple;
+}
